@@ -1,6 +1,6 @@
 body {
  
-background-color: black;
+background-color: yellow;
 background-size: cover;
 
 }
@@ -8,7 +8,7 @@ background-size: cover;
 
 h1 {
 
-color: white;
+color: orange;
 font-family: comic sans ms;
 font-size: 40px;
 text-align: center;
@@ -17,7 +17,7 @@ text-align: center;
 
 p {
 
-color: white;
+color: orange;
 font-family: verdana;
 font-size: 40px;
 text-align: center;
