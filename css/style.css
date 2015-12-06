@@ -4,38 +4,53 @@
 *{
 	border: 1px dotted yellow;
 }
-
 /*
 .board {
 
-position: relative;
-width: 800px;
-height: 800px;
-margin-right:150px;
-
-
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
 }
+
+*/
+/*
 
 #score {
 
-	font-size: 30px;
+	font-size: 35px;
+    font-family: comic sans ms;
     text-align: right;
-    
+    margin-right: 224px;
+    color: yellow;
+}*/ 
+
+.restart {
+
+background-image: url("http://yrmy.trafi.fi/game/img/button-play-again.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-color: transparent;
+width: 350px;
+height: 160px;
+position: relative;
+
 }
 
-/*img {
 
-
-width:800px;
-height:800px;
-position: absolute;
-
-}
-*/
 /*
+img {
+   
+    width: 900px;    
+    height: 900px;  
+}  
+
+/*
+
 body {
 
-	/*background-color: black; */
+background-color: black;
+
+}*/
 
 
 .duckbtn {

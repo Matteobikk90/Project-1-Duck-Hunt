@@ -8,7 +8,12 @@ $(".duckbtn").click(function() {
 	console.log(counter);
     $("#score").html(counter);
 });
+
+$(".restart").click(function() {
+	document.location.href="";
+
 });
+
 //soundManager.setup({
 //   url: 'js/soundmanager/swf',
 //   flashVersion: 9, 
