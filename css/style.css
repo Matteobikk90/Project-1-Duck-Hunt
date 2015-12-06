@@ -1,9 +1,8 @@
 #board {
 
-width:1000px;
-height:1000px;
-margin-left: 400px;
-margin-top: 250px;
+position: relative;
+width: 1024px;
+height: 768px;
 
 
 }

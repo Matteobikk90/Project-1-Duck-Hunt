@@ -1,17 +1,36 @@
-alert('uhuh');
+$(document).ready(function() { 
 
-/*soundManager.setup({                                                                                    //configure soundManager
-  url: '/swf',
-  onready: function() {
-      setUpSoundBoard()                                                                                 //onReady, call setUpSoundBoard() function
-  }
-});
-*/
+$(".duckbtn").click(function() { 
 
-($(document).ready(function() {  
-(".duckbtn").click(function() { 
     console.log("okkkkkk")
-})
+});
+
+soundManager.setup({
+   url: 'js/soundmanager/swf',
+   flashVersion: 9, 
+   onready: function() {
+
+   console.log("soundmanager");
+
+
+     
+var playButton = document.getElementsByClassName("duckbtn");
+  playButton[0].addEventListener("click" , function(event) {
+    var mySound = soundManager.createSound({
+      "id": 'duck',
+      "url" :"js/sounds/quack.aiff",
+    });
+    mySound.play(); 
+  })
+
+};
+
+$(document).ready(function() { 
+
+$(".duckbtn").click(function() { 
+
+    console.log("okkkkkk")
+});
 
 
 
