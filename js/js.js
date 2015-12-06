@@ -14,6 +14,26 @@ $(".restart").click(function() {
 
 });
 
+var count=60;
+
+var secondsLeft=setInterval(timer, 1000); 
+function timer()
+                               {
+  count=count-1;
+  if (count <= 0)
+                               {
+
+     clearInterval(secondsLeft);
+     return;
+  }
+
+ document.getElementById("timer").innerHTML=count + " secs";
+
+};
+
+ 
+});
+
 //soundManager.setup({
 //   url: 'js/soundmanager/swf',
 //   flashVersion: 9, 

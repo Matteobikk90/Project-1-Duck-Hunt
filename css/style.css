@@ -36,6 +36,13 @@ position: relative;
 
 }
 
+#timer {
+
+	float: right;
+    font-size: 100px;
+    font-family: comic sans ms;
+    color: orange;
+}
 
 /*
 img {
