@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() { 
 
 var playerName = prompt("What's your name soldier?", ".........");
@@ -59,7 +61,7 @@ function makeNewPosition(){
 
 function animateDiv(){
     var newq = makeNewPosition();
-    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, 500, function(){
+    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, 600, function(){
       animateDiv();        
     });
     
@@ -92,7 +94,3 @@ var playButton = document.getElementsByClassName("duckbtn");
 
 
 })
-
-
-
-

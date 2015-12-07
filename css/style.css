@@ -1,16 +1,9 @@
-
-*{
-    border: 1px dotted yellow;
-}
-
-
-
 #boardMC {
 
-    width: 1171px;
+    width: 98%;
     height: 695px;
     margin-top: 5px;
-    margin-left: 83px;
+    margin-left: 32px;
     background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio- dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
     background-size: cover;
     background-position: center;
@@ -20,7 +13,7 @@
 
     width: 400px;
     height: 100px;
-    margin-left: 770px;
+    margin-left: 1364px;
     color: orange;
     font-family: comic sans ms;
     font-size: 60px;
@@ -69,7 +62,7 @@ h1 {
     font-family: comic sans ms;
     color: orange;
     margin-top: 487px;
-    margin-left: 945px;
+    margin-left: 1527px;
     position: absolute;
 
 }
@@ -85,7 +78,8 @@ div.duckbtn {
 body     {
 
     background-color: black;
-
+    cursor: url("http://i.imgur.com/xMCD0lf.jpg?1"), default;
+    
 }
 
 .duckbtn {
