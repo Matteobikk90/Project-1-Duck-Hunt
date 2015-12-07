@@ -1,4 +1,10 @@
 $(document).ready(function() { 
+
+var playerName = prompt("What's your name soldier?", ".........");
+
+$("#name").text(playerName);
+
+
 	console.log("hello");
 
 var counter = 0;
@@ -20,7 +26,7 @@ var secondsLeft=setInterval(timer, 1000);
 function timer()
                                {
   count=count-1;
-  if (count <= 0)
+  if (count < 0)
                                {
 
      clearInterval(secondsLeft);
@@ -28,7 +34,6 @@ function timer()
   }
 
  document.getElementById("timer").innerHTML=count + " secs";
-
 };
 
  
@@ -43,8 +48,8 @@ function timer()
 //function makeNewPosition(){
 //    
 //  
-//    var h = $(window).height() - 150;
-//    var w = $(window).width() - 150;
+//    var h = $(window).height() - 250;
+//    var w = $(window).width() - 100;
 //    
 //    var nh = Math.floor(Math.random() * h);
 //    var nw = Math.floor(Math.random() * w);
@@ -60,34 +65,34 @@ function timer()
 //    });
 //    
 //};
-
-
+//
+//
 //soundManager.setup({
 //   url: 'js/soundmanager/swf',
 //   flashVersion: 9, 
 //   onready: function() {
 //
 //   console.log("soundmanager");
-
-
-     
+//
+//
+//   
 //var playButton = document.getElementsByClassName("duckbtn");
 // playButton[0].addEventListener("click" , function(event) {
+//
 //   var mySound = soundManager.createSound({
-//     "id": 'duck',
-//     "url" :"js/sounds/quack.aiff",
+//     "id": 'ducksound',
+//     "url" :"sounds/duck.mp3",
 //   });
 //   mySound.play(); 
 // })
-
+//
+//
 //}
-
-
-
-
-
-var playerName = prompt("What's your name soldier?", ".........");
-document.write(playerName);
-document.getElementById("#name").innerHTML(playerName);
-
-
+//
+//
+//})
+//
+//
+//
+//
+//

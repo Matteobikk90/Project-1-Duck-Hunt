@@ -1,16 +1,16 @@
 
-
-
 *{
-	border: 1px dotted yellow;
+    border: 1px dotted yellow;
 }
+
+
 
 #boardMC {
 
-    width: 900px;
-    height: 900px;
-    margin-top: 30px;
-    margin-left: 235px;
+    width: 1171px;
+    height: 695px;
+    margin-top: 5px;
+    margin-left: 83px;
     background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio- dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
     background-size: cover;
     background-position: center;
@@ -18,36 +18,38 @@
 
 #name {
 
-    width: 250px;
+    width: 400px;
     height: 100px;
-    font-size: 35px;
-    color:white;
-    text-align: center;
-    margin-left: 650px;
-    margin-top: 0px;
-    color:yellow;
-
+    margin-left: 770px;
+    color: orange;
+    font-family: comic sans ms;
+    font-size: 60px;
+    text-align: right;
 }
 
 h1 {
 
+    margin: 0 auto;
     color: #FFEB3B;
     height: 60px;
     text-align: center;
-    font-size: 66px;
+    font-size: 60px;
     font-family: fantasy;
+    width: 555px;
+
 }
 
 
 
 #score {
 
-	font-size: 75px;
+	font-size: 60px;
     font-family: comic sans ms;
     text-align: right;
-    margin-right: 350px;
-    color: yellow;
+    color: #FFEB3B;
     float: right;
+    margin-top: 0px;
+    
 }
 
 .restart {
@@ -58,44 +60,46 @@ h1 {
     width: 350px;
     height: 160px;
     float: left;
-    margin-top: 750px;
+    margin-top: 445px;
 
 }
 
 #timer {
 
 	float: right;
-    font-size: 100px;
+    font-size: 60px;
     font-family: comic sans ms;
     color: orange;
-    margin-top: 650px;
-
-
+    margin-top: 487px;
+    margin-right: 0px;
 }
 
 div.duckbtn {
 
-width: 150px;
-height:150px;
-position:fixed;
+    width: 157px;
+    height:170px;
+    position:relative;
     
 }
+
+}
+
 
 
 
 body {
 
-background-color: ;
+    background-color:black;
 
 }
 
 
 .duckbtn {
 
-background-image: url("http://www.gifanimategratis.eu/img/animali/anatra/ducky.gif");
-background-position: center center;
-width:150px;
-height:150px;
+    background-image: url("http://www.gifanimategratis.eu/img/animali/anatra/ducky.gif");
+    background-position: center center;
+    width:157px;
+    height:170px;
 
 
 
