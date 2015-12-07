@@ -71,35 +71,30 @@ h1 {
     font-family: comic sans ms;
     color: orange;
     margin-top: 487px;
-    margin-right: 0px;
+    margin-left: 945px;
+    position: absolute;
+
 }
 
 div.duckbtn {
 
     width: 157px;
     height:170px;
-    position:relative;
+    position:absolute;
     
 }
 
-}
+body     {
 
-
-
-
-body {
-
-    background-color:black;
+    background-color: black;
 
 }
-
 
 .duckbtn {
 
     background-image: url("http://www.gifanimategratis.eu/img/animali/anatra/ducky.gif");
     background-position: center center;
-    width:157px;
-    height:170px;
+   
 
 
 

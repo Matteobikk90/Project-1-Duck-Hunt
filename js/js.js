@@ -31,68 +31,70 @@ function timer()
 
      clearInterval(secondsLeft);
      return;
-  }
+}
 
  document.getElementById("timer").innerHTML=count + " secs";
+
 };
 
  
 });
 
 
-//$(document).ready(function(){
-//    animateDiv();
-//    
-//});
-//
-//function makeNewPosition(){
-//    
-//  
-//    var h = $(window).height() - 250;
-//    var w = $(window).width() - 100;
-//    
-//    var nh = Math.floor(Math.random() * h);
-//    var nw = Math.floor(Math.random() * w);
-//    
-//    return [nh,nw];    
-//    
-//}
-//
-//function animateDiv(){
-//    var newq = makeNewPosition();
-//    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, function(){
-//      animateDiv();        
-//    });
-//    
-//};
-//
-//
-//soundManager.setup({
-//   url: 'js/soundmanager/swf',
-//   flashVersion: 9, 
-//   onready: function() {
-//
-//   console.log("soundmanager");
-//
-//
-//   
-//var playButton = document.getElementsByClassName("duckbtn");
-// playButton[0].addEventListener("click" , function(event) {
-//
-//   var mySound = soundManager.createSound({
-//     "id": 'ducksound',
-//     "url" :"sounds/duck.mp3",
-//   });
-//   mySound.play(); 
-// })
-//
-//
-//}
-//
-//
-//})
-//
-//
-//
-//
-//
+$(document).ready(function(){
+    animateDiv();
+    
+});
+
+function makeNewPosition(){
+    
+  
+    var h = $(window).height() - 250;
+    var w = $(window).width() - 100;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(){
+    var newq = makeNewPosition();
+    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, 500, function(){
+      animateDiv();        
+    });
+    
+};
+
+
+   soundManager.setup({
+   url: 'js/soundmanager/swf',
+   flashVersion: 9, 
+   onready: function() {
+
+   console.log("soundmanager");
+
+
+   
+var playButton = document.getElementsByClassName("duckbtn");
+ playButton[0].addEventListener("click" , function(event) {
+
+   var mySound = soundManager.createSound({
+     "id": 'ducksnd',
+     "url" :"sounds/ducksound.mp3",
+});
+
+   mySound.play(); 
+
+})
+
+
+}
+
+
+})
+
+
+
+
