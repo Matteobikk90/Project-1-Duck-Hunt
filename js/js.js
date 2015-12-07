@@ -5,14 +5,12 @@ var playerName = prompt("What's your name soldier?", ".........");
 $("#name").text(playerName);
 
 
-	console.log("hello");
-
 var counter = 0;
 
 $(".duckbtn").click(function() { 
 	counter+= 5;
-	console.log(counter);
     $("#score").html(counter);
+
 });
 
 $(".restart").click(function() {
@@ -20,15 +18,16 @@ $(".restart").click(function() {
 
 });
 
-var count=60;
+var count=30;
 
 var secondsLeft=setInterval(timer, 1000); 
 function timer()
                                {
   count=count-1;
+
   if (count < 0)
                                {
-
+     alert('SORRY, OUT OF TIME');
      clearInterval(secondsLeft);
      return;
 }
@@ -36,7 +35,6 @@ function timer()
  document.getElementById("timer").innerHTML=count + " secs";
 
 };
-
  
 });
 
