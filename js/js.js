@@ -14,13 +14,13 @@ $(".restart").click(function() {
 
 });
 
-var count=60;
+var count=61;
 
 var secondsLeft=setInterval(timer, 1000); 
 function timer()
                                {
   count=count-1;
-  if (count <= 0)
+  if (count < 0)
                                {
 
      clearInterval(secondsLeft);

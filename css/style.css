@@ -4,35 +4,48 @@
 *{
 	border: 1px dotted yellow;
 }
-/*
-.board {
+
+#boardMC {
 
     width: 900px;
     height: 900px;
-    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 235px;
+    background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio- dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-*/
-/*
+h1 {
+
+    color: #FFEB3B;
+    height: 60px;
+    text-align: center;
+    font-size: 66px;
+    font-family: fantasy;
+}
+
+
 
 #score {
 
-	font-size: 35px;
+	font-size: 75px;
     font-family: comic sans ms;
     text-align: right;
-    margin-right: 224px;
+    margin-right: 350px;
     color: yellow;
-}*/ 
+    float: right;
+}
 
 .restart {
 
-background-image: url("http://yrmy.trafi.fi/game/img/button-play-again.png");
-background-repeat: no-repeat;
-background-position: center center;
-background-color: transparent;
-width: 350px;
-height: 160px;
-position: relative;
+    background-image: url("http://yrmy.trafi.fi/game/img/button-play-again.png");
+    background-position: center center;
+    background-size: cover;
+    width: 350px;
+    height: 160px;
+    float: left;
+    margin-top: 750px;
 
 }
 
@@ -42,33 +55,26 @@ position: relative;
     font-size: 100px;
     font-family: comic sans ms;
     color: orange;
+    margin-top: 650px;
+
+
 }
 
-/*
-img {
-   
-    width: 900px;    
-    height: 900px;  
-}  
 
-/*
 
 body {
 
 background-color: black;
 
-}*/
+}
 
 
 .duckbtn {
 
 background-image: url("http://www.gifanimategratis.eu/img/animali/anatra/ducky.gif");
-background-repeat: no-repeat;
 background-position: center center;
-background-color: transparent;
 width:150px;
 height:150px;
-position: relative;
 
 
 }
