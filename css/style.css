@@ -16,6 +16,19 @@
     background-position: center;
 }
 
+#name {
+
+    width: 250px;
+    height: 100px;
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    margin-left: 650px;
+    margin-top: 0px;
+    color:yellow;
+
+}
+
 h1 {
 
     color: #FFEB3B;
@@ -60,11 +73,19 @@ h1 {
 
 }
 
+div.duckbtn {
+
+width: 150px;
+height:150px;
+position:fixed;
+    
+}
+
 
 
 body {
 
-background-color: black;
+background-color: ;
 
 }
 
@@ -77,4 +98,7 @@ width:150px;
 height:150px;
 
 
+
 }
+
+

@@ -14,13 +14,13 @@ $(".restart").click(function() {
 
 });
 
-var count=61;
+var count=60;
 
 var secondsLeft=setInterval(timer, 1000); 
 function timer()
                                {
   count=count-1;
-  if (count < 0)
+  if (count <= 0)
                                {
 
      clearInterval(secondsLeft);
@@ -33,6 +33,34 @@ function timer()
 
  
 });
+
+
+//$(document).ready(function(){
+//    animateDiv();
+//    
+//});
+//
+//function makeNewPosition(){
+//    
+//  
+//    var h = $(window).height() - 150;
+//    var w = $(window).width() - 150;
+//    
+//    var nh = Math.floor(Math.random() * h);
+//    var nw = Math.floor(Math.random() * w);
+//    
+//    return [nh,nw];    
+//    
+//}
+//
+//function animateDiv(){
+//    var newq = makeNewPosition();
+//    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, function(){
+//      animateDiv();        
+//    });
+//    
+//};
+
 
 //soundManager.setup({
 //   url: 'js/soundmanager/swf',
@@ -58,9 +86,8 @@ function timer()
 
 
 
-//var playerName = prompt("What's your name soldier?", ".........");
-//document.write("Okey " + playerName + " let's go");
+var playerName = prompt("What's your name soldier?", ".........");
+document.write(playerName);
+document.getElementById("#name").innerHTML(playerName);
 
-
-// $(".duckbtn").animate({left: "100px", top: "240px"});
 
