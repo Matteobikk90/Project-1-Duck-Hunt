@@ -3,7 +3,7 @@
     width: 98%;
     height: 695px;
     margin-top: 5px;
-    margin-left: 32px;
+    margin-left: 12px;
     background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio-dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@ ul {
 
     width: 400px;
     height: 100px;
-    margin-left: 1364px;
+    margin-left: 1068px;
     color: orange;
     font-family: comic sans ms;
     font-size: 60px;
@@ -72,7 +72,7 @@ h1 {
     font-family: comic sans ms;
     color: orange;
     margin-top: 487px;
-    margin-left: 1527px;
+    margin-left: 1231px;
     position: absolute;
 
 }

@@ -31,12 +31,18 @@ Your app must:
 
 ### TECHNOLOGIES USED , THE APPROACH TAKEN AND THE UNSOLVED PROBLEMS.
 
-I started my project with all the singles divs where i decided to put the board image and all the other buttons inside it. Then i decided to write the first fucntion as prompt
-actually where you can put your name and appear on the board while you are paying.
-Once you put the name you then have 30 seconds to try to catch as more time as possible the duck, actually you must click on it and everytime you do it you make 5 points.
-There's just one level where the duck is moving randomly in a certain velocity which is not that easy so will make the game more fun.
-I've changed the cursor with a image ( basebaall bat ) to make bit more funny and i've also put a funny duck sound when you click on it.'
-There is also a button linked to an empty page where when you press on it is refreshing the actual page so you can play another round and go on as much as you want.
+I started my project by thinking about where to put the board image and the other buttons. I decided to put them all in a single div.
+
+Then, I decided to write my first function to capture the name of the player, and to display it on the board while playing the game.
+
+Once you enter your name, you then have 30 seconds to try and catch the duck as many times as you can. Every time you click on it, it will add 5 points to your score.
+
+There are 5 levels (1 = slower and 5 = quicker). The duck moves randomly at a fixed velocity within a fixed width and height. This is not easy! This makes the game more interactive.
+
+I've also changed the cursor to an image (baseball bat) to make it funnier and I've also attached a funny duck sound when you click on the duck.
+
+There is also a button linked to an empty page which refreshes the screen when you click on it. When the screen refreshes, you can play another round, and go on as much as you want.
+
 
 
 
