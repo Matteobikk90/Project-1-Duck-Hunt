@@ -1,6 +1,5 @@
 var difficulty;
 
-
 $(document).ready(function() { 
 
 var playerName = prompt("What's your name, duck hunter?", ".........");
