@@ -1,4 +1,5 @@
 # Project-1-Duck-Hunt
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: The Game
 
 ### Overview
@@ -103,3 +104,4 @@ Score | Expectations
 **3** | _Exceeds expectations, you wonderful creature, you!_
 
 This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+
