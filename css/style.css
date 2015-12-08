@@ -4,9 +4,18 @@
     height: 695px;
     margin-top: 5px;
     margin-left: 32px;
-    background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio- dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
+    background-image: url("../Project-1-Kill-the-Ducks/paesaggio.jpg");
     background-size: cover;
     background-position: center;
+}
+
+ul {
+
+    font-size: 60px;
+    font-family: comic sans ms;
+    color: orange;
+    margin-left: 33px;
+
 }
 
 #name {
@@ -75,10 +84,10 @@ div.duckbtn {
     
 }
 
-body     {
+body  {
 
     background-color: black;
-    cursor: url("http://i.imgur.com/xMCD0lf.jpg?1"), default;
+    cursor: url("http://i.imgur.com/yRklTsH.png?1"), default;
     
 }
 
@@ -88,5 +97,3 @@ body     {
     background-position: center center;
    
 }
-
-

@@ -1,8 +1,10 @@
+var difficulty;
 
 
 $(document).ready(function() { 
 
-var playerName = prompt("What's your name soldier?", ".........");
+var playerName = prompt("What's your name, duck hunter?", ".........");
+difficulty = prompt("Choose a skill level 1 - 5");
 
 $("#name").text(playerName);
 
@@ -29,7 +31,7 @@ function timer()
 
   if (count < 0)
                                {
-     alert('SORRY, OUT OF TIME');
+     alert('SORRY, GAME OVER');
      clearInterval(secondsLeft);
      return;
 }
@@ -41,12 +43,12 @@ function timer()
 });
 
 
-$(document).ready(function(){
+$(document).ready(function() {
     animateDiv();
     
 });
 
-function makeNewPosition(){
+function makeNewPosition() {
     
   
     var h = $(window).height() - 250;
@@ -59,11 +61,12 @@ function makeNewPosition(){
     
 }
 
-function animateDiv(){
+function animateDiv() {
+
     var newq = makeNewPosition();
-    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, 600, function(){
+    $('.duckbtn').animate({ top: newq[0], left: newq[1] }, 2250 / difficulty, function(){
       animateDiv();        
-    });
+});
     
 };
 
@@ -92,5 +95,4 @@ var playButton = document.getElementsByClassName("duckbtn");
 
 }
 
-
-})
+});
