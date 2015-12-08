@@ -21,7 +21,7 @@ $(".restart").click(function() {
 
 });
 
-var count=30;
+var count=10;
 
 var secondsLeft=setInterval(timer, 1000); 
 function timer()
@@ -30,7 +30,9 @@ function timer()
 
   if (count < 0)
                                {
-     alert('SORRY, GAME OVER');
+  
+    $("#boardMC").slideUp()
+    $("#gameOverPage").slideDown()
      clearInterval(secondsLeft);
      return;
 }
@@ -40,7 +42,6 @@ function timer()
 };
  
 });
-
 
 $(document).ready(function() {
     animateDiv();
@@ -69,22 +70,18 @@ function animateDiv() {
     
 };
 
-
    soundManager.setup({
    url: 'js/soundmanager/swf',
    flashVersion: 9, 
    onready: function() {
-
-   console.log("soundmanager");
-
-
    
 var playButton = document.getElementsByClassName("duckbtn");
  playButton[0].addEventListener("click" , function(event) {
 
-   var mySound = soundManager.createSound({
+var mySound = soundManager.createSound({
      "id": 'ducksnd',
      "url" :"sounds/ducksound.mp3",
+
 });
 
    mySound.play(); 

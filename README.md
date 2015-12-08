@@ -29,7 +29,7 @@ Your app must:
 ---
 
 
-### TECHNOLOGIES USED , THE APPROACH TAKEN AND THE UNSOLVED PROBLEMS.
+### TECHNOLOGIES USED AND THE APPROACH TAKEN.
 
 I started my project by thinking about where to put the board image and the other buttons. I decided to put them all in a single div.
 
@@ -42,7 +42,6 @@ There are 5 levels (1 = slower and 5 = quicker). The duck moves randomly at a fi
 I've also changed the cursor to an image (baseball bat) to make it funnier and I've also attached a funny duck sound when you click on the duck.
 
 There is also a button linked to an empty page which refreshes the screen when you click on it. When the screen refreshes, you can play another round, and go on as much as you want.
-
 
 
 

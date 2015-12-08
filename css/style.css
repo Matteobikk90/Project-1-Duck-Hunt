@@ -1,33 +1,8 @@
-#boardMC {
+body  {
 
-    width: 98%;
-    height: 695px;
-    margin-top: 5px;
-    margin-left: 12px;
-    background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio-dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
-    background-size: cover;
-    background-position: center;
-    
-}
+    background-color: black;
+    cursor: url("http://i.imgur.com/yRklTsH.png?1"), default;
 
-ul {
-
-    font-size: 60px;
-    font-family: comic sans ms;
-    color: orange;
-    margin-left: 33px;
-
-}
-
-#name {
-
-    width: 400px;
-    height: 100px;
-    margin-left: 1068px;
-    color: orange;
-    font-family: comic sans ms;
-    font-size: 60px;
-    text-align: right;
 }
 
 h1 {
@@ -42,6 +17,40 @@ h1 {
 
 }
 
+#gameOverPage {
+    display: none
+}
+
+#gameOverImg{
+
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+#boardMC {
+
+    width: 98%;
+    height: 695px;
+    margin-top: 5px;
+    margin-left: 12px;
+    background-image: url("http://immagini.4ever.eu/data/download/cartoni-animati/paesaggio-dipinto,-strada,-prato,-sole,-nuvole-207394.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#name {
+
+    width: 400px;
+    height: 100px;
+    margin-left: 1068px;
+    color: orange;
+    font-family: comic sans ms;
+    font-size: 60px;
+    text-align: right;
+}
+
 #score {
 
 	font-size: 60px;
@@ -51,18 +60,6 @@ h1 {
     float: right;
     margin-top: 0px;
     
-}
-
-.restart {
-
-    background-image: url("http://yrmy.trafi.fi/game/img/button-play-again.png");
-    background-position: center center;
-    background-size: cover;
-    width: 350px;
-    height: 160px;
-    float: left;
-    margin-top: 445px;
-
 }
 
 #timer {
@@ -85,16 +82,21 @@ div.duckbtn {
     
 }
 
-body  {
-
-    background-color: black;
-    cursor: url("http://i.imgur.com/yRklTsH.png?1"), default;
-    
-}
-
 .duckbtn {
 
     background-image: url("http://www.gifanimategratis.eu/img/animali/anatra/ducky.gif");
     background-position: center center;
    
+}
+
+.restart {
+
+    background-image: url("http://yrmy.trafi.fi/game/img/button-play-again.png");
+    background-position: center center;
+    background-size: cover;
+    width: 350px;
+    height: 160px;
+    float: left;
+    margin-top: 445px;
+
 }
