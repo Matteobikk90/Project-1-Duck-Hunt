@@ -35,13 +35,15 @@ I started my project by thinking about where to put the board image and the othe
 
 Then, I decided to write my first function to capture the name of the player, and to display it on the board while playing the game.
 
-Once you enter your name, you then have 30 seconds to try and catch the duck as many times as you can. Every time you click on it, it will add 5 points to your score.
+Once you enter your name, you then have 45 seconds to try and catch the duck as many times as you can. Every time you click on it, it will add 5 points to your score.
 
 There are 5 levels (1 = slower and 5 = quicker). The duck moves randomly at a fixed velocity within a fixed width and height. This is not easy! This makes the game more interactive.
 
-I've also changed the cursor to an image (baseball bat) to make it funnier and I've also attached a funny duck sound when you click on the duck.
+I've changed the cursor to an image (baseball bat) to make it funnier and I've attached a funny duck sound when you click on the duck.
 
 There is also a button linked to an empty page which refreshes the screen when you click on it. When the screen refreshes, you can play another round, and go on as much as you want.
+
+Once the player finishes the seconds will appear a GameOver screen and that's it !!!
 
 
 
