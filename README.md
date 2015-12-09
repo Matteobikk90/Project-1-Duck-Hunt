@@ -29,7 +29,15 @@ Your app must:
 ---
 
 
-### TECHNOLOGIES USED AND THE APPROACH TAKEN.
+### TECHNOLOGIES USED
+
+
+HTML5, CSS , JAVASCRIPT AND JQUERY.
+
+
+
+###THE APPROACH TAKEN.
+
 
 I started my project by thinking about where to put the board image and the other buttons. I decided to put them all in a single div.
 
@@ -44,6 +52,11 @@ I've changed the cursor to an image (baseball bat) to make it funnier and I've a
 There is also a button linked to an empty page which refreshes the screen when you click on it. When the screen refreshes, you can play another round, and go on as much as you want.
 
 Once the player finishes the seconds will appear a GameOver screen and that's it !!!
+
+
+### UNSOLVED PROBLEMS
+
+I wasn't that sure how to create the two players.
 
 
 
